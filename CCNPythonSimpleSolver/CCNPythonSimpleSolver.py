@@ -37,7 +37,7 @@ def inference_sudoku(sample):
     '''
 
     feat = copy.copy(sample)
-
+#test
     while (1):
 
         out = model.predict(feat.reshape((1, 9, 9, 1)))
